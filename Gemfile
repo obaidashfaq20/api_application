@@ -20,6 +20,7 @@ gem "bootsnap", require: false # Reduces boot times through caching; required in
 # gem "rack-cors" # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 
 group :development, :test do
+  gem 'pry'
   gem "debug", platforms: %i[ mri mingw x64_mingw ] # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
 end
 
